@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="style.css" />
+    <script src="main.js"></script>
+
+    <!--===== Jacqueline Abyasa - 2540133234 =====-->
+    <title>Jacqueline Abyasa</title>
+  </head>
+  <body>
+    <!--===== HEADER =====-->
+    <header class="menu_bar">
+      <nav class="nav">
+        <div class="nav_menu" id="nav-menu">
+          <ul class="nav_list">
+            <li class="nav_item">
+              <a href="#home" class="nav_link">Home</a>
+            </li>
+            <li class="nav_item">
+              <a href="#about" class="nav_link">About</a>
+            </li>
+            <li class="nav_item">
+              <a href="#skills" class="nav_link">Skills</a>
+            </li>
+            <li class="nav_item">
+              <a href="#services" class="nav_link">Services</a>
+            </li>
+            <li class="nav_item">
+              <a href="#portfolio" class="nav_link">Portfolio</a>
+            </li>
+            <li class="nav_item">
+              <a href="#contact" class="nav_link">Contact</a>
+            </li>
+            <li class="nav_item">
+              <a href="#comment" class="nav_link">Comment</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+        <!--===== HOME =====-->
+        <section class="home bd-grid" id="home">
+        <div>
+            <h1 class="home_title">
+                Hello,<br />I'm <span class="home_title-color">Jacqueline</span><br />
+                Coding Mentor
+            </h1>
+            <div class="contact">
+                <!--===== when clicked, new tab confirmation message will appear =====-->
+                <a href="#contact" class="button">Contact</a>
+                    <img class="socials" src="images/linkedin.png" onclick="openInNewTab('https://www.linkedin.com/in/jacquelineabyasa/');">
+                    <img class="socials" src="images/ig.png" onclick="openInNewTab('https://www.instagram.com/jacqabyasa/');">
+                    <img class="socials" src="images/discord.png" onclick="openInNewTab('https://discord.com/');">
+            </div>
+        </div>
+         <div class="home_img">
+             <image class="home_profile" src="images/home.jpg">
+         </div>
+        </section>
+
+        <!--===== ABOUT =====-->
+        <section class="about section orange bd-grid" id="about">
+            <h2 class="section-orange">About</h2>
+            <div class="about_container bd-grid">
+                <div class="border"></div>
+              <div class="about_img">
+                <img src="images/about.png" alt="" />
+              </div>
+    
+              <div class="about_txt bd-grid">
+                <h2 class="about_subtitle">Hi, I'm Jacqueline!</h2>
+                <p class="about_text">
+                    I am a Student-Athlete majoring in Computer Science at
+                    BINUS University under the BINUS Widia Scholarship for
+                    Outstanding Achievers.
+                    <br><br>
+                    I am passionate in the field of computer science and
+                    mathematics which is built upon my skill set that is
+                    oriented towards problem-solving, logical reasoning, and
+                    computational-algorithmic thinking
+                </p>
+              </div>
+            </div>
+          </section>     
+          
+          <!--===== SKILLS =====-->
+          <section class="skills section bd-grid" id="skills">
+              <h2 class="section-white">Skills</h2>
+              <div class="skill_img">
+                <img src="images/laptop.png" alt="" />
+              </div>
+              <div class="skill_icon">
+                <div class="icon one">
+                  <img class="pic" src="images/html.png" alt="" />
+                  <div class="stat">
+                    <div class="bar"></div>
+                    <div class="percent"></div>
+                    <h2 class="num">92%</h2>
+                  </div>
+               </div>
+                <div class="icon two">
+                  <img class="pic" src="images/css.png" alt="" />
+                  <div class="stat">
+                    <div class="bar"></div>
+                    <div class="percent2"></div>
+                    <h2 class="num">87%</h2>
+                  </div>
+                </div>
+                <div class="icon three">
+                  <img class="pic" src="images/js.png" alt="" />
+                  <div class="stat">
+                    <div class="bar"></div>
+                    <div class="percent1"></div>
+                    <h2 class="num">76%</h2>
+                  </div>
+                </div>
+                <div class="icon four">
+                  <img class="pic" src="images/py.png" alt="" />
+                  <div class="stat">
+                    <div class="bar"></div>
+                    <div class="percent2"></div>
+                    <h2 class="num">85%</h2>
+                  </div>
+                </div>
+                <div class="icon five">
+                  <img class="pic" src="images/c.png" alt="" />
+                  <div class="stat">
+                    <div class="bar"></div>
+                    <div class="percent"></div>
+                    <h2 class="num">95%</h2>
+                  </div>
+                </div>
+                <div class="icon six">
+                  <img class="pic" src="images/cpp.png" alt="" />
+                  <div class="stat">
+                    <div class="bar"></div>
+                    <div class="percent1"></div>
+                    <h2 class="num">80%</h2>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+            <!--===== SERVICES =====-->
+            <section class="about section orange bd-grid" id="services">
+              <h2 class="section-orange">Services</h2>
+              <div class="service_cards">
+              <div class="service_box">
+                <h2 class="service_title">WebDev Mentoring</h2>
+                <div class="service_line"></div>
+                <p class="service_text">
+                  Want to build a website from scratch? Learn and expand your skill set
+                  by building real world projects with detailed guidance along the way!
+                </p>
+              </div>
+              <div class="service_box">
+                <h2 class="service_title">Data Analytics Course</h2>
+                <div class="service_line"></div>
+                <p class="service_text">
+                  Apiring to become a data analyst? Explore the the fundamentals of
+                  data handling, processing, and visualisation with Python in this course!
+                </p>
+              </div>
+              <div class="service_box">
+                <h2 class="service_title">Programming Basics Class</h2>
+                <div class="service_line"></div>
+                <p class="service_text">
+                  Want to get into tech but have no programming background? This class is
+                  will take you through all the basics you'll need to start that journey! 
+                </p>
+              </div>
+              <div class="line_service"></div>
+            </div>
+            </section>   
+
+            <!--===== PORTFOLIO =====-->
+            <section class="about section bd-grid" id="portfolio">
+              <h2 class="section-white">Portfolio</h2>
+            <div class="port">
+            <div class="portfolio_section">
+              <div class="port_txt">
+              <h2 class="service_title">WHEELS - Website with HTML, CSS, and JS</h2>
+                <p class="port_text">
+                  <br>
+                  Complete website for a bike rental company that allows front-office staff to
+                  handle, locate, update, and register their rental bookings in a much more
+                  efficient, and organized way.  
+                </p>
+              </div>
+              <div class="port_img">
+                <img src="images/port1.png" alt="">
+              </div>
+            </div>
+            <div class="line_border"></div>
+            <div class="portfolio_section">
+              <div class="port_txt">
+              <h2 class="service_title">BookMart.id - Data Analysis with Python</h2>
+                <p class="port_text">
+                  <br>
+                  Handled data for a local bookstore and made visualizations to depict the company's
+                  growth rate, income, customer behaviors, progress, and many more. Helped enhanced
+                  and solidify the company's decision making process.
+                </p>
+              </div>
+              <div class="port_img">
+                <img src="images/port2.png" alt="">
+              </div>
+            </div>
+            <div class="line_border"></div>
+            <div class="portfolio_section">
+              <div class="port_txt">
+              <h2 class="service_title">Class Management Program with C</h2>
+                <p class="port_text">
+                  <br>
+                  Made a system to store data of a students in a class. THe data includes student name,
+                  student ID, exam grades, and GPA. Included features such as a ranking system, grade
+                  to GPA conversion, searching for a student by their ID, and a group generator.
+                </p>
+              </div>
+              <div class="port_img">
+                <img src="images/port3.png" alt="">
+              </div>
+            </div>
+            </div>
+            </section>   
+
+            <!--===== CONTACT =====-->
+            <section class="about section orange bd-grid" id="contact">
+              <h2 class="section-orange">Contact</h2>
+              <div class="mail">
+                <img src="images/mail.png" alt="">
+              </div>
+              <div class="input">
+              <input type="text" placeholder="Name" id="name" class="content" />
+              <div class="form-border"></div>
+              <input type="text" placeholder="Email" id="email" class="content" />
+              <div class="form-border"></div>
+              <textarea class="message" placeholder="Leave a message..." id="message"></textarea>
+              <div class="form-border"></div>
+              <!--===== when clicked, send confirmation message will appear =====-->
+              <input
+                type="submit"
+                name=""
+                value="Send&nbsp&nbsp&nbsp>"
+                class="send"
+                onclick="sendMessage()"
+              />
+            </div>
+            </section> 
+
+            <!--===== COMMENT =====-->
+            <section class="about section bd-grid" id="comment">
+              <h2 class="section-white">0 Comments</h2>
+              <div class="user">
+                <img src="images/user.png" alt="">
+              </div>
+              <textarea class="comment_text" placeholder="Leave a message..."></textarea>
+              <!--===== when clicked, comment confirmation message will appear =====-->
+              <input
+                type="submit"
+                name=""
+                value="Post&nbsp&nbsp&nbsp>"
+                class="post"
+                onclick="postComment()"
+              />
+            </section>  
+            
+            <!--===== FOOTER =====-->
+            <section class="comment orange bd-grid">
+            <div class="footer">
+              <h2 class="footer_name">Jacqueline A.</h2>
+              <!--===== when clicked, new tab confirmation message will appear =====-->
+              <div class="footer_contact">
+                <img class="socials1" src="images/linkedin.png" onclick="openInNewTab('https://www.linkedin.com/in/jacquelineabyasa/');">
+                <img class="socials1" src="images/ig.png" onclick="openInNewTab('https://www.instagram.com/jacqabyasa/');">
+                <img class="socials1" src="images/discord.png" onclick="openInNewTab('https://discord.com/');">
+              </div>
+            <a href="https://binus.ac.id" class="footer_uni">Bina Nusantara University</a>
+            </div>
+            <p class="address">Jl. Pasir Kaliki No.25-27, Ciroyom, Kec. Andir, Kota Bandung, Jawa Barat 40181</p>
+          <div class="footer-border"></div>
+            </section>  
+     </main>
+  </body>
+</html>
